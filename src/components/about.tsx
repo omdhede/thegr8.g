@@ -19,7 +19,7 @@ export const About = () => {
     return (
         <div className="w-full text-white min-h-screen " id="about" ref={ref}>
             <div className="min-h-screen w-full flex flex-col sm:flex-row justify-center items-center">
-                <div className="backdrop-blur-[2px] mt-2 sm:mt-0 sm:ml-4 gap-y-8 sm:gap-y-0 lg:backdrop-blur-[1px] w-full px-5 lg:pl-24 lg:pr-24 xl:pl-32 flex min-h-screen flex-col sm:flex-row justify-center items-center gap-x-12">
+                <div className="backdrop-blur-[2px] mt-[4rem] sm:mt-0 sm:ml-4 gap-y-8 sm:gap-y-0 lg:backdrop-blur-[1px] w-full px-5 lg:pl-24 lg:pr-24 xl:pl-32 flex min-h-screen flex-col sm:flex-row justify-center items-center gap-x-12">
                     <div className="sm:w-1/2 flex flex-col items-center justify-center">
                         <Reveal side="left">
                             <div className="flex flex-col gap-y-4 text-justify">

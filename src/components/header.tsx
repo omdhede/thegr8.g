@@ -8,6 +8,8 @@ import TypewriterComponent from "typewriter-effect";
 import { Button } from "./ui/button";
 import { ArrowRight, Download } from "lucide-react";
 import { useSectionInView } from "@/lib/hooks";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 
 
@@ -15,6 +17,8 @@ export default function Header() {
     const [vantaEffect, setVantaEffect] = useState(0);
     const vantaRef = useRef(null);
     const { ref } = useSectionInView("Home", 0.5);
+
+
 
     useEffect(() => {
         if (!vantaEffect) {
@@ -44,7 +48,7 @@ export default function Header() {
                         </div> */}
                         <div className="flex absolute top-1/4 sm:top-32 ">
                             <Reveal side="up">
-                                <h1 className="text-2xl sm:text-5xl font-semibold flex flex-row items-center justify-center">
+                                <h1 className="text-[1.4rem] sm:text-5xl font-semibold flex flex-row items-center justify-center">
                                     Welcome to the <span className="opacity-60 ml-2">
                                         <TypewriterComponent
                                             options={{
@@ -82,18 +86,25 @@ export default function Header() {
                         <div className="flex flex-row gap-x-4 sm:gap-x-10 mt-4">
                             <div>
                                 <Reveal side="up">
-                                    <Button variant="ghost" className="bg-slate-500 rounded-xl sm:p-6 bg-opacity-20 border-[0.2px] border-slate-500 border-opacity-55">
-                                        <span className="sm:font-semibold sm:text-lg">Contact Me</span>
-                                        <span className="text-xl font-semibold ml-2"><ArrowRight size={20} /></span>
-                                    </Button>
+                                    <Link href='#contact'>
+                                        <Button variant="ghost" className="bg-slate-500 rounded-xl sm:p-6 bg-opacity-20 border-[0.2px] border-slate-500 border-opacity-55">
+                                            <span className="sm:font-semibold sm:text-lg">Contact Me</span>
+                                            <span className="text-xl font-semibold ml-2"><ArrowRight size={20} /></span>
+                                        </Button>
+                                    </Link>
                                 </Reveal>
                             </div>
                             <div>
                                 <Reveal side="up">
-                                    <Button variant="ghost" className="bg-slate-500 rounded-xl sm:p-6 bg-opacity-20 border-[0.2px] border-slate-500 border-opacity-55 ">
-                                        <span className="sm:font-semibold sm:text-lg">Resume</span>
-                                        <span className="ml-2"><Download size={20} /></span>
-                                    </Button>
+                                    <Link href="/cv.pdf" target="_blank">
+                                        <Button
+                                            variant="ghost"
+                                            className="bg-slate-500 rounded-xl sm:p-6 bg-opacity-20 border-[0.2px] border-slate-500 border-opacity-55 "
+                                        >
+                                            <span className="sm:font-semibold sm:text-lg">Resume</span>
+                                            <span className="ml-2"><Download size={20} /></span>
+                                        </Button>
+                                    </Link>
                                 </Reveal>
                             </div>
                         </div>
