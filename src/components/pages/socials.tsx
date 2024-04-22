@@ -8,9 +8,9 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import { HoverCard, HoverCardContent, HoverCardTrigger } from './ui/hover-card';
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '../ui/hover-card';
 import { socials } from '@/lib/socials';
-import { Avatar, AvatarImage } from './ui/avatar';
+import { Avatar, AvatarImage } from '../ui/avatar';
 import Link from 'next/link';
 
 export default function Socials() {
