@@ -61,7 +61,7 @@ const Skills = () => {
                                     <li className="text-xl flex flex-row items-center justify-center ">
                                         <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                         <span className="px-2">
-                                            <Image src="/icons/react-native.svg" alt="Flutter icon" width={40} height={40} />
+                                            <Image src="/icons/react-native.svg" alt="React Native icon" width={40} height={40} />
                                         </span>{" - "}
                                         <span className="px-2">React Native</span>
                                     </li>
@@ -81,28 +81,28 @@ const Skills = () => {
                                     <li className="text-xl flex flex-row items-center justify-center ">
                                         <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                         <span className="px-2">
-                                            <Image src="/icons/docker.svg" alt="Flutter icon" width={40} height={40} />
+                                            <Image src="/icons/docker.svg" alt="Docker icon" width={40} height={40} />
                                         </span>{" - "}
                                         <span className="px-2">Docker</span>
                                     </li>
                                     <li className="text-xl flex flex-row items-center justify-center ">
                                         <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                         <span className="px-2">
-                                            <Image src="/icons/jenkins.svg" alt="Flutter icon" width={40} height={40} />
+                                            <Image src="/icons/jenkins.svg" alt="Jenkins icon" width={40} height={40} />
                                         </span>{" - "}
                                         <span className="px-2">Jenkins</span>
                                     </li>
                                     <li className="text-xl flex flex-row items-center justify-center ">
                                         <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                         <span className="px-2">
-                                            <Image src="/icons/aws.svg" alt="Flutter icon" width={40} height={40} className="bg-white p-1 rounded-lg" />
+                                            <Image src="/icons/aws.svg" alt="AWS icon" width={40} height={40} className="bg-white p-1 rounded-lg" />
                                         </span>{" - "}
                                         <span className="px-2">AWS {"(EC2)"}</span>
                                     </li>
                                     <li className="text-xl flex flex-row items-center justify-center ">
                                         <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                         <span className="px-2">
-                                            <Image src="/icons/ubuntu.svg" alt="Flutter icon" width={40} height={40} className="bg-white p-1 rounded-lg" />
+                                            <Image src="/icons/ubuntu.svg" alt="Ubuntu icon" width={40} height={40} className="bg-white p-1 rounded-lg" />
                                         </span>{" - "}
                                         <span className="px-2">Ubuntu Server</span>
                                     </li>
@@ -124,42 +124,49 @@ const Skills = () => {
                                 <li className="text-xl flex flex-row items-center justify-center ">
                                     <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                     <span className="px-2">
-                                        <Image src="/icons/nodejs.svg" alt="Flutter icon" width={35} height={35} />
+                                        <Image src="/icons/nodejs.svg" alt="Nodejs icon" width={35} height={35} />
                                     </span>{" - "}
                                     <span className="px-2">NodeJS</span>
                                 </li>
                                 <li className="text-xl flex flex-row items-center justify-center ">
                                     <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                     <span className="px-2">
-                                        <Image src="/icons/express.svg" alt="Flutter icon" width={35} height={35} className="rounded-lg" />
+                                        <Image src="/icons/express.svg" alt="Express icon" width={35} height={35} className="rounded-lg" />
                                     </span>{" - "}
                                     <span className="px-2">Express</span>
                                 </li>
                                 <li className="text-xl flex flex-row items-center justify-center ">
                                     <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                     <span className="px-2">
-                                        <Image src="/icons/mongoose.svg" alt="Flutter icon" width={35} height={35} />
+                                        <Image src="/icons/mongoose.svg" alt="Mongoose icon" width={35} height={35} />
                                     </span>{" - "}
                                     <span className="px-2">Mongoose</span>
                                 </li>
                                 <li className="text-xl flex flex-row items-center justify-center ">
                                     <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                     <span className="px-2">
-                                        <Image src="/icons/firebase.svg" alt="Flutter icon" width={35} height={35} />
+                                        <Image src="/icons/firebase.svg" alt="Firebase icon" width={35} height={35} />
                                     </span>{" - "}
                                     <span className="px-2">Firebase</span>
+                                </li>
+                                <li className="text-xl flex flex-row items-center justify-center">
+                                    <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
+                                    <span className="px-2">
+                                        <Image src="/icons/trpc.svg" alt="tRPC icon" width={40} height={40} className="bg-white rounded-lg p-1 bg-opacity-5 aspect-square"/>
+                                    </span>{" - "}
+                                    <span className="px-2">tRPC</span>
                                 </li>
                                 <li className="text-xl flex flex-row items-center justify-center ">
                                     <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                     <span className="px-2">
-                                        <Image src="/icons/graphql.svg" alt="Flutter icon" width={35} height={35} />
+                                        <Image src="/icons/graphql.svg" alt="GraphQL icon" width={35} height={35} />
                                     </span>{" - "}
                                     <span className="px-2">GraphQL</span>
                                 </li>
                                 <li className="text-xl flex flex-row items-center justify-center ">
                                     <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
                                     <span className="px-2">
-                                        <Image src="/icons/prisma.svg" alt="Flutter icon" width={35} height={35} />
+                                        <Image src="/icons/prisma.svg" alt="Prism icon" width={35} height={35} />
                                     </span>{" - "}
                                     <span className="px-2">Prisma {"(ORM)"}</span>
                                 </li>
@@ -204,7 +211,7 @@ const Skills = () => {
                                         <span className="px-2">
                                             <Image src="/icons/mysql.svg" alt="Flutter icon" width={35} height={35} />
                                         </span>{" - "}
-                                        <span className="px-2">MySQL</span>
+                                        <span className="px-2">MySQL {"*"}</span>
                                     </li>
                                     <li className="text-xl flex flex-row items-center justify-center ">
                                         <span className="font-extrabold text-2xl mb-[0.6rem]">.</span> {" "}
