@@ -3,7 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import ActiveSectionContextProvider from "../context/active-section-context";
 import Nav from "@/components/nav";
-
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -23,6 +24,8 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           <Nav />
           {children}
+          <Analytics />
+          <SpeedInsights />
         </ActiveSectionContextProvider>
       </body>
     </html>
