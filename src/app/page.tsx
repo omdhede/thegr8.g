@@ -12,7 +12,6 @@ export default function Home() {
       <About />
       <Separator className="text-white" />
       <Skills />
-      
     </div>
   );
 }
