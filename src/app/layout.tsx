@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Om Dhede - TheGr8G",
+  title: "Om Dhede - TheGr8.G",
   description: "Om Dhede - Personal website",
 };
 
