@@ -3,22 +3,19 @@ import Contact from "@/components/pages/contact";
 import Header from "@/components/pages/header";
 import Projects from "@/components/pages/projects";
 import Skills from "@/components/pages/skills";
-import { Separator } from "@/components/ui/separator";
-
+import Experience from "@/components/pages/experience";
+import AILab from "@/components/pages/ai-lab";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <main className="w-full">
       <Header />
-      <Separator className="text-white" />
       <About />
-      <Separator className="text-white" />
-      <Skills />
-      <Separator className="text-white" />
+      <Experience />
       <Projects />
-      <Separator className="text-white" />
+      <Skills />
+      <AILab />
       <Contact />
-      <Separator className="text-white" />
-    </div>
+    </main>
   );
 }
