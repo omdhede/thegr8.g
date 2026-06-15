@@ -52,7 +52,7 @@ export default function Header() {
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/20 bg-black/20 backdrop-blur-sm w-fit">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 <span className="text-xs font-medium text-white/80 tracking-wide">
-                  Available for IT Developer Consultant roles
+                  Exploring AI, automation & tech
                 </span>
               </div>
             </Reveal>

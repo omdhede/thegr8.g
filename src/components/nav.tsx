@@ -95,7 +95,7 @@ export default function Nav() {
             onClick={() => handleNavClick("Contact", "#contact")}
             className="hidden lg:flex items-center gap-1.5 px-4 py-1.5 rounded-full text-sm font-medium bg-blue-600 hover:bg-blue-500 text-white transition-colors duration-200"
           >
-            Hire Me
+            Get in Touch
           </Link>
         </div>
       </header>
@@ -201,7 +201,7 @@ export default function Nav() {
                   onClick={() => handleNavClick("Contact", "#contact")}
                   className="flex items-center justify-center w-full py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold transition-colors duration-200"
                 >
-                  Hire Me
+                  Get in Touch
                 </Link>
               </div>
             </nav>
