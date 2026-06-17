@@ -1,4 +1,23 @@
 export const projects = [
+  {
+    id: "run-tracker",
+    title: "Run Tracker",
+    tagline: "Personal running dashboard targeting a sub-50 min 10K with AI-adaptive coaching",
+    year: "2026",
+    stack: ["Next.js 14", "TypeScript", "Tailwind CSS", "Recharts", "OpenAI GPT-4", "Vercel"],
+    category: "Full-Stack · Health Tech",
+    group: "fullstack",
+    description:
+      "A personal training dashboard integrating WHOOP recovery data and Strava activity logs to track progress toward a sub-50 minute 10K (5:00/km). Features an AI Coach (GPT-4) that analyses 7 days of HRV, sleep, and pace data to auto-adjust weekly sessions — never adding or removing sessions, just tuning intensity and distance based on real recovery signals.",
+    metrics: [
+      { label: "Training Phases", value: "4" },
+      { label: "Integrations", value: "WHOOP + Strava" },
+      { label: "AI Coach", value: "GPT-4" },
+    ],
+    github: "https://github.com/omdhede/trainers-field",
+    live: "https://trainers-field.vercel.app",
+    featured: true,
+  },
   // AI & Audit Automation (featured)
   {
     id: "audit-evidence-api",
